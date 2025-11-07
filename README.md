@@ -12,13 +12,11 @@ O visitante pode acessar informações sobre:
 🗺️ Mapas interativos e rotas
 🧭 Sugestões de roteiros personalizados
 
----
 🛠️ Tecnologias Utilizadas
 Front-end
 React — Criação de interfaces modernas e dinâmicas
 TailwindCSS — Estilização responsiva e eficiente
 React Router — Navegação entre páginas
----
 Backend
 Java com Spring Boot — API REST para gerenciamento de dados
 PostgreSQL — Banco de dados relacional
