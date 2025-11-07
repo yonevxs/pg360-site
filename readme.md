@@ -1,36 +1,18 @@
-# 🌴 **PG360 - Guia Turístico de Praia Grande (SP)**
+# React + Vite
 
-O **PG360** é um site voltado para a **divulgação de pontos turísticos, eventos culturais e locais de lazer** da cidade de **Praia Grande, São Paulo**.  
-O projeto tem como objetivo **promover o turismo local**, aproximando moradores e visitantes das principais atrações e novidades da cidade.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 **Visão Geral**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-O **PG360** oferece uma experiência simples e interativa para quem deseja explorar Praia Grande.  
-O visitante pode acessar informações sobre:
+## React Compiler
 
-- 🎭 **Eventos culturais e festivais**
-- 🏖️ **Pontos turísticos e praias**
-- 🍽️ **Locais de lazer e gastronomia**
-- 🗺️ **Mapas interativos e rotas**
-- 🧭 **Sugestões de roteiros personalizados**
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
----
+Note: This will impact Vite dev & build performances.
 
-## 🛠️ **Tecnologias Utilizadas**
+## Expanding the ESLint configuration
 
-### **Frontend**
-- [React](https://react.dev/) — Criação de interfaces modernas e dinâmicas  
-- [TailwindCSS](https://tailwindcss.com/) — Estilização responsiva e eficiente  
-- [React Router](https://reactrouter.com/) — Navegação entre páginas
-
-### **Backend**
-- [Java com Spring Boot](https://spring.io/projects/spring-boot) — API REST para gerenciamento de dados  
-- [PostgreSQL](https://www.postgresql.org/) — Banco de dados relacional  
-- [Spring Data JPA](https://spring.io/projects/spring-data-jpa) — Acesso e persistência de dados
-
----
-
-## 📂 **Estrutura do Projeto**
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
