@@ -1,14 +1,31 @@
-# ⚛️ React + Vite Boilerplate
+🌴 PG360 - Guia Turístico de Praia Grande (SP)
+O PG360 é um site de divulgação de pontos turísticos, eventos culturais e locais de lazer da cidade de Praia Grande, São Paulo .
+O projeto tem como objetivo promover o turismo local , aproximando moradores e visitantes das principais atrações e novidades da cidade.
 
-Este repositório contém uma configuração inicial (boilerplate) minimalista para desenvolvimento de aplicações front-end utilizando **React** e **Vite**. O projeto é otimizado para a velocidade de desenvolvimento e oferece **Hot Module Replacement (HMR)** para feedback instantâneo.
+🚀 Visão Geral
+O PG360 oferece uma experiência simples e interativa para quem deseja explorar a Praia Grande.
+O visitante pode acessar informações sobre:
 
-## 🚀 Execução Local do Projeto
+🎭 Eventos culturais e festivais
+🏖️ Pontos turísticos e praias
+🍽️ Locais de lazer e gastronomia
+🗺️ Mapas interativos e rotas
+🧭 Sugestões de roteiros personalizados
 
-Para colocar o projeto em funcionamento na sua máquina local, siga estes passos simples:
+---
+## 🛠️ Tecnologias Utilizadas
+Front-end
+React — Criação de interfaces modernas e dinâmicas
+TailwindCSS — Estilização responsiva e eficiente
+React Router — Navegação entre páginas
+---
+Backend
+Java com Spring Boot — API REST para gerenciamento de dados
+PostgreSQL — Banco de dados relacional
+Spring Data JPA — Acesso e persistência de dados
+📂 Estrutura do Projeto
 
-### Pré-requisitos
-Certifique-se de ter o **Node.js** (e **npm**) instalados.
-
+----
 ### Passos
 1.  **Instale as dependências** do projeto:
     ```bash
