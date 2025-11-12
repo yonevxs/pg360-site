@@ -1,15 +1,17 @@
+import {Link} from 'react-router-dom';
+
 function Navbar(){
     return(
         <nav className="bg-[#1D91CE] p-4 flex shadow-lg w-full items-center relative">
       
       <div>
-        <span className="font-outfit text-[#FFB703] text-2xl font-bold tracking-wider font-[500]">PG-360</span>
+        <Link to='/' className="font-outfit text-[#FFB703] text-2xl font-bold tracking-wider font-[500]">PG-360</Link>
       </div>
 
       <div className="flex-1 flex space-x-8 items-center justify-center">
-        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200">Eventos</a>
-        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200">Atrações & Passeios</a>
-        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200">Serviços</a>
+        <Link to="/eventos" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Eventos</Link>
+        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Atrações & Passeios</a>
+        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Serviços</a>
       </div>
 
       <div className="flex items-center space-x-4">

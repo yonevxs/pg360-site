@@ -31,7 +31,7 @@ const atracoes = [
 
 function Carrossel() {
   return (
-    <div className="bg-white p-10 md:p-20">
+    <div className="bg-white p-8 md:p-20">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
         Principais Atrações
       </h2>
@@ -53,11 +53,11 @@ function Carrossel() {
         >
           {atracoes.map((atracao) => (
             <SwiperSlide key={atracao.id}>
-              <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden h-full mx-4">
+              <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden h-full mx-3">
                 <img 
                   src={atracao.imgUrl} 
                   alt={atracao.titulo} 
-                  className="w-full h-90 object-cover"
+                  className="w-full h-85 object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold text-gray-800 text-center">{atracao.titulo}</h3>
