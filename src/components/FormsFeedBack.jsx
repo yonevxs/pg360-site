@@ -4,11 +4,12 @@ import {useForm} from 'react-hook-form'
 
 function FormsFeedBack(){
 
-    const{register,handleSubmit} = useForm();
+    const{register,handleSubmit,reset} = useForm();
 
     const onSubmit = (data) =>{
         console.log("Dados enviados",data)
         alert(`Obrigado pelo feedback,${data.nome}!`)
+        reset();
     }
    
     return(
