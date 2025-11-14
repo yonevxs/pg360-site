@@ -4,6 +4,7 @@ import ScrollArrow from './ScrollArrow';
 import Navbar from './Navbar';
 import Carrossel from './Carrossel';
 import FormsFeedBack from './FormsFeedBack';
+import Footer from './Footer';
 
 function Home(){
     return(
@@ -39,6 +40,11 @@ function Home(){
             <div id='secao-formalario'>
                 <FormsFeedBack/>
             </div>
+
+            <div>
+                <Footer/>
+            </div>
+
         </>
         
     );
