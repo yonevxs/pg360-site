@@ -13,25 +13,25 @@ function FormsFeedBack(){
     }
    
     return(
-        <div className='flex justify-center items-center min-h-screen bg-gray-100 p-4'>'
-            <form onSubmit={handleSubmit(onSubmit)} className="bg p-8 rounded-xl shadow-2xl w-full max-w-md space-y-6 border border-gray-200">
+        <div className='flex justify-center items-center min-h-screen bg-gray-100 p-4'>
+            <form onSubmit={handleSubmit(onSubmit)} className="bg p-8 rounded-xl shadow-2xl w-full max-w-md space-y-4 border border-gray-200">
 
                 <h2 className="text-3xl font-bold text-center text-gray-800">Envie seu Feedback</h2>
 
                 <div>
-                    <label htmlFor="" className="block text-sm font-medium text-gray-700 mb-1">Digite seu Nome</label><br />
-                    <input type="text" placeholder="Exemplo nome" className={`w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out `}{...register('nome',{required : true})}/><br/><br />
+                    <label htmlFor="" className="text-sm font-semibold text-gray-700">Digite seu Nome</label><br />
+                    <input type="text" placeholder="Seu nome" className={`w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out `}{...register('nome',{required : true})}/><br/><br />
                 </div>
 
                 <div>
-                    <label htmlFor="" className="block text-sm font-medium text-gray-700 mb-1">Digite seu Email</label><br/>
-                    <input type="email" placeholder="Email@exemplo.com"className={`w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out `}{...register("email",{required : true})}/>
+                    <label htmlFor="" className="text-sm font-semibold text-gray-700 mb-1">Digite seu Email</label><br/>
+                    <input type="email" placeholder="email@exemplo.com"className={`w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out `}{...register("email",{required : true})}/>
                     <br /><br /> 
                 </div>
                   
                 <div>
-                    <label htmlFor="" className="block text-sm font-medium text-gray-700 mb-1">Informe seu FeedBack</label><br />
-                    <textarea name="mensagem" placeholder="Digite seu FeedBack" rows="4"
+                    <label htmlFor="" className="text-sm font-semibold text-gray-700 mb-1">Informe seu FeedBack</label><br />
+                    <textarea name="mensagem" placeholder="Gostou do site? Nos diga o que podemos melhorar" rows="4"
                         className={`w-full px-4 py-2 border rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out resize-none  'border-gray-300'}`} {...register("mensagem", {required: true})}/><br></br>
                 </div>
 

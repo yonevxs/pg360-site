@@ -10,7 +10,7 @@ function Navbar(){
 
       <div className="flex-1 flex space-x-8 items-center justify-center">
         <Link to="/eventos" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Eventos</Link>
-        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Atrações & Passeios</a>
+        <Link to="/atracoes" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Atrações & Passeios</Link>
         <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Serviços</a>
       </div>
 
