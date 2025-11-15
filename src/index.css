@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 @import "tailwindcss";
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 @import "swiper/css";
 @import "swiper/css/navigation";
@@ -11,6 +11,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@theme{
+  --font-poppins: "Poppins", sans-serif;
+  --font-outfit: "Outfit", sans-serif
+}
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -41,4 +50,4 @@
 .swiper-pagination-bullet-active {
   background-color: #1D91CE !important;
 }
->>>>>>> 7e8ed6eb4f548b2c31922987864dccf5c7ce6016
+
