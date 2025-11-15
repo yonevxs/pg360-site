@@ -4,6 +4,8 @@
 @import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
+@import "tailwindcss";
+
 
 @tailwind base;
 @tailwind components;
@@ -48,3 +50,4 @@
 .swiper-pagination-bullet-active {
   background-color: #1D91CE !important;
 }
+

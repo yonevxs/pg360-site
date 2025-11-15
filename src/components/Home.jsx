@@ -1,4 +1,3 @@
-/** biome-ignore-all lint/correctness/useUniqueElementIds: <explanation> */
 import imagemDeFundo from '../assets/por_do_sol_pg.jpg';
 import ScrollArrow from './ScrollArrow';
 import Navbar from './Navbar';
