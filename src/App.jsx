@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.jsx';
 // import Home from './components/Home.jsx';
 // import Carrossel from './components/Carrossel.jsx';
 import AppRouter from './router/routes.jsx';
-import FormsFeedBack from './components/FormsFeedBack.jsx';
+import FormsAvaliacoes from './components/FormsAvaliacoes.jsx';
 
 
 

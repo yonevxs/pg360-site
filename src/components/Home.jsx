@@ -3,8 +3,8 @@ import imagemDeFundo from '../assets/por_do_sol_pg.jpg';
 import ScrollArrow from './ScrollArrow';
 import Navbar from './Navbar';
 import Carrossel from './Carrossel';
-import FormsFeedBack from './FormsFeedBack';
 import Footer from './Footer';
+import FormsAvaliacoes from './FormsAvaliacoes';
 
 function Home(){
     return(
@@ -38,7 +38,7 @@ function Home(){
             </div>
 
             <div id='secao-formalario'>
-                <FormsFeedBack/>
+                <FormsAvaliacoes/>
             </div>
 
             <div>
