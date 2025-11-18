@@ -18,6 +18,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/avaliacoes")
 @Tag(name = "Avaliações", description = "Endpoints para submissão e gerenciamento de avaliações públicas")
+@CrossOrigin("http://localhost:5173")
 public class AvaliacaoController {
 
     @Autowired

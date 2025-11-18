@@ -18,6 +18,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/categorias")
 @Tag(name = "Categorias", description = "Endpoints para gerenciamento de categorias")
+@CrossOrigin("http://localhost:5173")
+
 public class CategoriaController {
 
     @Autowired

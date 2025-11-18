@@ -19,6 +19,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/usuarios")
 @Tag(name = "Usuários", description = "Endpoints para gerenciamento de usuários")
+@CrossOrigin("http://localhost:5173")
+
 public class UsuarioController {
 
     @Autowired

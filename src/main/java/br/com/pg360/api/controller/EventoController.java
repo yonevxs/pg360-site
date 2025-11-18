@@ -18,6 +18,8 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/eventos")
 @Tag(name = "Eventos", description = "Endpoints para gerenciamento de eventos da cidade")
+@CrossOrigin("http://localhost:5173")
+
 public class EventoController {
 
     @Autowired
