@@ -17,13 +17,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/locais")
-<<<<<<< HEAD
 @CrossOrigin("http://localhost:5173")
 @Tag(name = "Locais", description = "Endpoints para gerenciamento de locais turísticos")
-=======
-@Tag(name = "Locais", description = "Endpoints para gerenciamento de locais turísticos")
-@CrossOrigin("http://localhost:5173")
->>>>>>> 48ea8b9c39159ca6fe032021606ea7a5691dcbae
 
 public class LocalController {
 

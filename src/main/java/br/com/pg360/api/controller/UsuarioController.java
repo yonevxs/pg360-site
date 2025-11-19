@@ -18,14 +18,10 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/usuarios")
-<<<<<<< HEAD
 @CrossOrigin("http://localhost:5173")
 @Tag(name = "Usuários", description = "Endpoints para gerenciamento de usuários")
 
-=======
-@Tag(name = "Usuários", description = "Endpoints para gerenciamento de usuários")
-@CrossOrigin("http://localhost:5173")
->>>>>>> 48ea8b9c39159ca6fe032021606ea7a5691dcbae
+
 
 public class UsuarioController {
 

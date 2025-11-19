@@ -18,20 +18,13 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/feedback")
-<<<<<<< HEAD
 @CrossOrigin("http://localhost:5173")
 
-=======
->>>>>>> 48ea8b9c39159ca6fe032021606ea7a5691dcbae
 @Tag(
         name = "Avaliações do Site",
         description = "Endpoints para criação, consulta, atualização e exclusão de avaliações do site."
 )
-<<<<<<< HEAD
 
-=======
-@CrossOrigin("http://localhost:5173")
->>>>>>> 48ea8b9c39159ca6fe032021606ea7a5691dcbae
 public class FeedbackSiteController {
 
     @Autowired

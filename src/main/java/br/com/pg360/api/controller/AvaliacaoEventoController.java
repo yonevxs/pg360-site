@@ -18,19 +18,12 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/avaliacoes-evento")
-<<<<<<< HEAD
-@CrossOrigin("http://localhost:5173")
-=======
->>>>>>> 48ea8b9c39159ca6fe032021606ea7a5691dcbae
 @Tag(
         name = "Avaliações de Evento",
         description = "Endpoints para criação, listagem, consulta e exclusão de avaliações vinculadas a eventos."
 )
-<<<<<<< HEAD
 
-=======
 @CrossOrigin(origins = "http://localhost:5173")
->>>>>>> 48ea8b9c39159ca6fe032021606ea7a5691dcbae
 public class AvaliacaoEventoController {
 
     @Autowired
