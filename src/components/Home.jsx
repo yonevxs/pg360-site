@@ -7,6 +7,7 @@ import ScrollArrow from './ScrollArrow';
 import FormsAvaliacoes from './FormsAvaliacoes';
 import Carrossel from './Carrossel';
 import imgNetuno from '../assets/Netuno_foto.jpg'
+import imgCultura from '../assets/culturapg.jpg'
 
 import imagemDeFundo from '../assets/por_do_sol_pg.jpg';
 
@@ -98,7 +99,7 @@ function Home() {
                     {imgAgendaCultural ? (
                         <img src={imgAgendaCultural} alt="Agenda Cultural" className="w-full h-full object-cover" />
                     ) : (
-                        <div className="w-full h-full flex items-center justify-center text-white bg-gray-800">Imagem Agenda Cultural</div>
+                        <div className="w-full h-full" style={{ backgroundImage: `url(${imgCultura})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                     )}
                 </div>
 
@@ -110,9 +111,9 @@ function Home() {
                         O Palácio das Artes e os teatros da cidade oferecem uma programação rica e diversificada. 
                         Fique por dentro das exposições e peças de teatro.
                     </p>
-                    <button className="bg-white text-[#003566] font-bold py-3 px-8 rounded hover:bg-gray-100 transition-colors flex items-center gap-2">
+                    <Link to="/agendaCultural" className="bg-white text-[#003566] font-bold py-3 px-8 rounded hover:bg-gray-100 transition-colors flex items-center gap-2">
                         SAIBA MAIS <ArrowRight className="text-[#FFA303]" />
-                    </button>
+                    </Link>
                 </div>
             </section>
 

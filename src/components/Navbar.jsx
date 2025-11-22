@@ -29,7 +29,6 @@ function Navbar(){
         <Link to="/eventos" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Eventos</Link>
         <Link to="/atracoes" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Atrações & Passeios</Link>
         <Link to="/agendacultural" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Agenda Cultural</Link>
-        <a href="#" className="text-white text-lg hover:text-pg-blue-light transition-colors duration-200 font-poppins font-bold">Serviços</a>
       </div>
 
       <div className="flex items-center space-x-4">
