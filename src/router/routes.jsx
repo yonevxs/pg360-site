@@ -2,10 +2,11 @@ import React from 'react';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import Home from '../components/Home.jsx';
-import Eventos from '../components/Eventos.jsx';
-import AtracoesPasseios from '../components/AtracoesPasseios.jsx';
-import AgendaCultural from '../components/AgendaCultural.jsx';
-import LoginAdm from '../components/LoginAdm.jsx';
+import Eventos from '../components/Eventos/Eventos.jsx';
+import AtracoesPasseios from '../components/Atracoes&Passeios/AtracoesPasseios.jsx';
+import AgendaCultural from '../components/Agenda/AgendaCultural.jsx';
+import Agenda from '../components/Agenda/Agenda.jsx';
+import LoginAdm from '../components/Adiministracao/LoginAdm.jsx';
 
 function AppRouter(){
     return(

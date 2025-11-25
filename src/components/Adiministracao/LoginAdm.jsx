@@ -43,7 +43,7 @@ function LoginAdm() {
                 
                 <div className="text-center mb-8">
                     <h1 className="text-3xl font-extrabold text-blue-700 flex items-center justify-center tracking-tight">
-                        <LogIn className="w-7 h-7 mr-3 text-blue-600" />
+                        
                         Acesso Administrativo
                     </h1>
                 </div>

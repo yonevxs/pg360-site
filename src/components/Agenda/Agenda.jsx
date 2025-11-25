@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import location from "../assets/location.png";
-import arrow from "../assets/arrow.png";
+import location from "../../assets/location.png";
+import arrow from "../../assets/arrow.png";
 
 export default function Agenda() {
 
