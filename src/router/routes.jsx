@@ -7,6 +7,7 @@ import AtracoesPasseios from '../components/Atracoes&Passeios/AtracoesPasseios.j
 import AgendaCultural from '../components/Agenda/AgendaCultural.jsx';
 import Agenda from '../components/Agenda/Agenda.jsx';
 import LoginAdm from '../components/Adiministracao/LoginAdm.jsx';
+import Dashboard from '../components/Adiministracao/Dashboard.jsx';
 
 function AppRouter(){
     return(
@@ -16,6 +17,7 @@ function AppRouter(){
                 <Route path='/atracoes' element={<AtracoesPasseios/>} />
                 <Route path='/agendacultural' element={<AgendaCultural/>} />
                 <Route path='/entrar' element={<LoginAdm/>} />
+                <Route path="/dashboard" element={<Dashboard />} />
                 <Route path='/*' element={<h1> Página Não Encontrada </h1>} />
             </Routes>
     );
