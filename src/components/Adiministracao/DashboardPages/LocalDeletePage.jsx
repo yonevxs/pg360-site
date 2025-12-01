@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar"; 
 
-function LocalDeletePage() {
+function LocalDeletePage({ onSelect }) {
   const [locais, setLocais] = useState([]);
 
   useEffect(() => {
@@ -27,6 +28,7 @@ function LocalDeletePage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="locais-home" />
       <h2 className="text-2xl font-bold mb-4">Excluir Local</h2>
       <ul className="space-y-2">
         {locais.map(loc => (

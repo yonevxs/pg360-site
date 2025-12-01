@@ -1,3 +1,4 @@
+// src/components/Sidebar.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -6,21 +7,9 @@ function Sidebar({ onSelect }) {
 
   const itens = [
     { chave: "home", label: "Página Inicial" },
-
-    { chave: "eventos-create", label: "Cadastrar Evento" },
-    { chave: "eventos-list", label: "Listar Eventos" },
-    { chave: "eventos-edit", label: "Editar Evento" },
-    { chave: "eventos-delete", label: "Excluir Evento" },
-
-    { chave: "locais-create", label: "Cadastrar Local" },
-    { chave: "locais-list", label: "Listar Locais" },
-    { chave: "locais-edit", label: "Editar Local" },
-    { chave: "locais-delete", label: "Excluir Local" },
-
-    { chave: "categorias-create", label: "Cadastrar Categoria" },
-    { chave: "categorias-list", label: "Listar Categorias" },
-    { chave: "categorias-edit", label: "Editar Categoria" },
-    { chave: "categorias-delete", label: "Excluir Categoria" },
+    { chave: "eventos-home", label: "Eventos" },
+    { chave: "locais-home", label: "Locais" },
+    { chave: "categorias-home", label: "Categorias" },
   ];
 
   const handleLogout = () => {

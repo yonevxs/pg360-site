@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar";
 
-function EventoEditPage() {
+function EventoEditPage({ onSelect }) {
   const [eventos, setEventos] = useState([]);
   const [locais, setLocais] = useState([]);
   const [categorias, setCategorias] = useState([]);
@@ -23,6 +24,7 @@ function EventoEditPage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="eventos-home" />
       <h2 className="text-2xl font-bold mb-4">Editar Evento</h2>
       <select
         className="border p-2 rounded mb-4"

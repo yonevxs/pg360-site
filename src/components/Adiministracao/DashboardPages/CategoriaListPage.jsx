@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar"; 
 
-function CategoriaListPage() {
+function CategoriaListPage({ onSelect }) {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
@@ -12,6 +13,7 @@ function CategoriaListPage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="categorias-home" />
       <h2 className="text-2xl font-bold mb-4">Lista de Categorias</h2>
       <ul className="space-y-2">
         {categorias.map(cat => (

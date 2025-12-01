@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar";
 
-function EventoDeletePage() {
+function EventoDeletePage({ onSelect }) {
   const [eventos, setEventos] = useState([]);
 
   useEffect(() => {
@@ -21,6 +22,7 @@ function EventoDeletePage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="eventos-home" />
       <h2 className="text-2xl font-bold mb-4">Excluir Evento</h2>
       <ul className="space-y-2">
         {eventos.map(ev => (

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar"; 
 
-function LocalCreatePage() {
+function LocalCreatePage({ onSelect }) {
   const [categorias, setCategorias] = useState([]);
   const [form, setForm] = useState({
     nmLocal: "",
@@ -40,6 +41,7 @@ function LocalCreatePage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="locais-home" />
       <h2 className="text-2xl font-bold mb-4">Cadastrar Local</h2>
       <div className="grid grid-cols-2 gap-4 mb-6">
         <input className="border p-2 rounded" placeholder="Nome" value={form.nmLocal} onChange={e => setForm({ ...form, nmLocal: e.target.value })}/>

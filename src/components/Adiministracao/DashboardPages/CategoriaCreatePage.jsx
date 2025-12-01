@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar"; 
 
-function CategoriaCreatePage() {
+function CategoriaCreatePage({ onSelect }) {
   const [form, setForm] = useState({
     nmCategoria: "",
     dsCategoria: ""
@@ -18,6 +19,7 @@ function CategoriaCreatePage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="categorias-home" />
       <h2 className="text-2xl font-bold mb-4">Cadastrar Categoria</h2>
       <div className="flex gap-4 mb-6">
         <input

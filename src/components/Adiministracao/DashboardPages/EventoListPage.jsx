@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BotaoVoltar from "./BotaoVoltar";
 
-function EventoListPage() {
+function EventoListPage({ onSelect }) {
   const [eventos, setEventos] = useState([]);
 
   useEffect(() => {
@@ -12,6 +13,7 @@ function EventoListPage() {
 
   return (
     <div>
+      <BotaoVoltar onSelect={onSelect} destino="eventos-home" />
       <h2 className="text-2xl font-bold mb-4">Lista de Eventos</h2>
       <ul className="space-y-2">
         {eventos.map(ev => (
