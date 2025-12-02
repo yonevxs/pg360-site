@@ -18,15 +18,15 @@ Este projeto foca na performance e na arquitetura modular, separando a lógica d
 
 | Categoria | Tecnologia | Badge |
 | :--- | :--- | :--- |
-| **Backend API** | ☕ **Spring Boot** | <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Badge Spring Boot"> |
-| **Linguagem Backend** | 🐘 **Java** | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Badge Java"> |
-| **Banco de Dados** | 💾 **PostgreSQL** | <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Badge PostgreSQL"> |
-| **Frontend** | ⚛️ **React** | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Badge React"> |
-| **Build Tool Frontend** | ⚡ **Vite** | <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Badge Vite"> |
-| **Estilização** | 🌬️ **Tailwind CSS** | <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Badge Tailwind CSS"> |
-| **Mapeamento** | 🗺️ **Google Maps API** | <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Badge Google Maps API"> |
-| **Versionamento** | 🌳 **Git** | <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Badge Git"> |
-| **Repositório** | 🐙 **GitHub** | <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Badge GitHub"> |
+| **Backend API** | **Spring Boot** | <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Badge Spring Boot"> |
+| **Linguagem Backend** |  **Java** | <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Badge Java"> |
+| **Banco de Dados** |  **PostgreSQL** | <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="Badge PostgreSQL"> |
+| **Frontend** |  **React** | <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Badge React"> |
+| **Build Tool Frontend** |  **Vite** | <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Badge Vite"> |
+| **Estilização** |  **Tailwind CSS** | <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Badge Tailwind CSS"> |
+| **Mapeamento** |  **Google Maps API** | <img src="https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=google-maps&logoColor=white" alt="Badge Google Maps API"> |
+| **Versionamento** |  **Git** | <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Badge Git"> |
+| **Repositório** |  **GitHub** | <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Badge GitHub"> |
 
 ---
 
