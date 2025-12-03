@@ -97,7 +97,7 @@ function AgendaCard({ hora, titulo, descricao, id }) {
     return (
         <div className="flex items-center justify-between p-4 rounded-lg hover:bg-gray-100 transition">
             <div className="flex gap-4">
-                <div className="bg-blue-600 text-white font-bold px-4 py-2 rounded-md w-20 text-center flex items-center justify-center">
+                <div className="bg-[#1D91CE] text-white font-bold px-4 py-2 rounded-md w-20 text-center flex items-center justify-center">
                     {hora}
                 </div>
 
@@ -110,7 +110,6 @@ function AgendaCard({ hora, titulo, descricao, id }) {
                             onClick={() => navigate(`/evento/${id}`)}
                             className="focus:outline-none cursor-pointer"
                         >
-                            <img src={location} alt="Localização" className="w-5 h-5" />
                         </button>
                     </div>
                 </div>
@@ -120,7 +119,6 @@ function AgendaCard({ hora, titulo, descricao, id }) {
                 onClick={() => navigate(`/evento/${id}`)}
                 className="focus:outline-none cursor-pointer flex items-center justify-center"
             >
-                <img src={arrow} alt="Abrir" className="w-6 h-6" />
             </button>
         </div>
     );
