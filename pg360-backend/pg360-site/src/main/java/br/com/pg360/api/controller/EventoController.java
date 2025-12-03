@@ -41,7 +41,7 @@ public class EventoController {
 
     @GetMapping
     public List<Evento> listarTodos() {
-        return repository.findAll();
+        return repository.findAll(Sort.by(Sort.Direction.DESC, "dtInicioEvento"));
     }
 
     @GetMapping("/{id}")
